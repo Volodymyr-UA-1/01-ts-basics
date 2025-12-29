@@ -7,7 +7,7 @@ interface Product {
   title: string;
 }
 
-const products: readonly Product[] = [
+const products: Product[] = [
   { id: 1, title: "Phone" },
   { id: 2, title: "Laptop" },
 ];
